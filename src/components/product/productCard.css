@@ -1,0 +1,152 @@
+.product-card {
+    position: relative;
+    margin: 1rem 0 0 3rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: var(--bg-top-bar);
+}
+
+.product-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+.product-info {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-sub);
+}
+
+.img-product {
+    width: 100%;
+    max-height: 240px;
+    border-radius: 12px 12px 0 0;
+}
+
+.promotion-banner {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background: var(--text-destac);
+    color: var(--text-base-light);
+    padding: 4px 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    transform: rotate(-30deg);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-name {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    color: var(--text-base-light);
+}
+
+.product-price {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-destac);
+}
+
+.sale-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-sale {
+    font-size: .8rem;
+    color: var(--text-sub);
+}
+
+.whatsapp-icon {
+    margin-left: 0.5rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    color: var(--bg-icon-whatsapp)
+}
+
+.whatsapp-icon:hover {
+    color: var(--text-destac)
+}
+
+@media (max-width: 1200px) {
+    .product-card {
+        margin: 1rem 0 0 3rem;
+    }
+
+    .product-info {
+        font-size: 1rem;
+    }
+
+    .img-product {
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .product-name {
+        font-size: 1.3rem;
+        margin-bottom: .5rem;
+    }
+
+    .product-price {
+        font-size: 1.3rem;
+    }
+
+    .product-sale {
+        font-size: .6rem;
+    }
+
+    .whatsapp-icon {
+        margin-left: 0.5rem;
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+
+@media (max-width: 970px) {
+    .product-card {
+        margin: 1rem 0 0 3rem;
+    }
+
+    .product-info {
+        font-size: 1rem;
+    }
+
+    .img-product {
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .product-name {
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .product-price {
+        font-size: 1rem;
+    }
+
+    .product-sale {
+        font-size: .5rem;
+    }
+
+    .whatsapp-icon {
+        margin-left: 0.5rem;
+        width: 1rem;
+        height: 1rem;
+    }
+}

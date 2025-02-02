@@ -1,0 +1,121 @@
+.sidebar {
+    padding: .6rem;
+    margin-top: 2rem;
+    border-radius: 12px;
+    background-color: var(--bg-top-bar);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title-category {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 1rem 0 1rem 1rem;
+    color: var(--text-base-light);
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.category-item {
+    font-size: 1rem;
+    color: var(--text-sub);
+    gap: .5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: background-color .3s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.category-item input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: var(--text-sub);
+    border: none;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+}
+
+.category-item input[type="checkbox"]:checked {
+    background-color: var(--text-destac);
+    border-color: var(--text-destac);
+}
+
+.category-item input[type="checkbox"]:checked::after {
+    content: "✔";
+    padding: 4px;
+    color: var(--text-base-light);
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 970px) {
+    .sidebar {
+        padding: .4rem;
+        margin-top: 1.5rem;
+    }
+
+    .title-category {
+        font-size: 1rem;
+        gap: .3rem;
+    }
+
+    .category-item {
+        padding: .3rem .8rem;
+        font-size: .7rem;
+    }
+
+}
+
+@media (max-width: 770px) {
+    .sidebar {
+        padding: .2rem;
+        margin-top: 1rem;
+    }
+
+    .title-category {
+        font-size: .8rem;
+        gap: .2rem;
+    }
+
+    .category-item {
+        padding: .1rem .6rem;
+        font-size: .5rem;
+    }
+
+}
+
+@media (max-width: 630px) {
+    .sidebar {
+        margin-top: .6rem;
+        padding: .3rem;
+    }
+
+    .title-category {
+        font-size: .9rem;
+        gap: .3rem;
+    }
+
+    .category-item {
+        padding: .3rem .5rem;
+        font-size: .7rem;
+    }
+
+}
