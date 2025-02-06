@@ -120,11 +120,7 @@ const App = () => {
         open={drawerOpen}
         onClose={toggleDrawer(false)}
       >
-        <Box className="drawer-box"
-          sx={{
-            height: '80vh',
-            overflowY: 'auto',
-          }} >
+        <Box className="drawer-box">
           <Box>
             <Logo />
           </Box>
@@ -167,7 +163,7 @@ const App = () => {
         </Grid>
       </Box>
       <Box className="footer">
-        <p>© 2025 Desenvolvido por Luciano Duarte.
+        <p>© 2025 Desenvolvido por Luciano Duarte. Contato:
           <span>
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} className="social-icon-app" />
