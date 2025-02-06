@@ -141,5 +141,38 @@
     "Category": {
       "CategoryName": "Perfumes masculinos"
     }
+  },
+  {
+    "IdProduct": 25,
+    "ProductName": "Produto 14",
+    "PriceSale": "150.00",
+    "Promotion": true,
+    "ImagePath": "1738806233011-478698147-14.jpg",
+    "IdCategory": 2,
+    "Category": {
+      "CategoryName": "Perfumes masculinos"
+    }
+  },
+  {
+    "IdProduct": 26,
+    "ProductName": "Produto 15",
+    "PriceSale": "300.00",
+    "Promotion": false,
+    "ImagePath": "1738806248626-115712550-15.jpg",
+    "IdCategory": 1,
+    "Category": {
+      "CategoryName": "Perfumes femininos"
+    }
+  },
+  {
+    "IdProduct": 27,
+    "ProductName": "Produto 16",
+    "PriceSale": "150.00",
+    "Promotion": true,
+    "ImagePath": "1738806501983-298483750-14.jpg",
+    "IdCategory": 2,
+    "Category": {
+      "CategoryName": "Perfumes masculinos"
+    }
   }
 ]
