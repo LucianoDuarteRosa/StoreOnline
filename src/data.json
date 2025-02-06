@@ -1,7 +1,7 @@
 [
   {
     "IdProduct": 1,
-    "ProductName": "Produto 1",
+    "ProductName": "Produto 0",
     "PriceSale": "200.00",
     "Promotion": false,
     "ImagePath": "1737836708730-909164203-01.png",
@@ -107,6 +107,39 @@
     "IdCategory": 3,
     "Category": {
       "CategoryName": "Perfumes infantis"
+    }
+  },
+  {
+    "IdProduct": 21,
+    "ProductName": "Produto 11",
+    "PriceSale": "250.00",
+    "Promotion": false,
+    "ImagePath": "1738523940601-260499195-produto11.png",
+    "IdCategory": 1,
+    "Category": {
+      "CategoryName": "Perfumes femininos"
+    }
+  },
+  {
+    "IdProduct": 23,
+    "ProductName": "Produto 12",
+    "PriceSale": "250.00",
+    "Promotion": true,
+    "ImagePath": "1738525249411-716543715-12.png",
+    "IdCategory": 2,
+    "Category": {
+      "CategoryName": "Perfumes masculinos"
+    }
+  },
+  {
+    "IdProduct": 24,
+    "ProductName": "Produto 13",
+    "PriceSale": "150.00",
+    "Promotion": true,
+    "ImagePath": "1738525650348-156274513-13.png",
+    "IdCategory": 2,
+    "Category": {
+      "CategoryName": "Perfumes masculinos"
     }
   }
 ]

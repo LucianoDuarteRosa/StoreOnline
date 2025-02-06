@@ -34,14 +34,14 @@
 
 .promotion-banner {
     position: absolute;
-    top: 25px;
+    top: 0;
     left: 0;
     background: var(--text-destac);
     color: var(--text-base-light);
-    padding: 4px 15px;
+    border-radius: 12px 0 12px 0;
+    padding: .3rem .7rem;
     font-size: 1rem;
     font-weight: 700;
-    transform: rotate(-30deg);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
