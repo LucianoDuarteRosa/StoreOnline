@@ -163,7 +163,7 @@ const App = () => {
         </Grid>
       </Box>
       <Box className="footer">
-        <p>© 2025 Desenvolvido por Luciano Duarte. Contato:
+        <p>© 2025 - Luciano Duarte. Contato:
           <span>
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} className="social-icon-app" />

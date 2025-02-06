@@ -54,7 +54,7 @@ body {
     align-items: center;
     color: var(--text-base-light);
     font-weight: 500;
-    margin-top: 1.5rem;
+    margin: 1rem 0 0 0;
 }
 
 .social-icon-app {
@@ -71,12 +71,29 @@ body {
 
 
 @media (max-width: 600px) {
+    .footer {
+        font-size: .9rem;
+    }
+
     .social-icon-app {
         margin-left: .3rem;
-        color: var(--text-sub);
-        cursor: pointer;
-        transition: color .3s;
-        font-size: 1rem;
+        font-size: .9rem;
+    }
+
+    .social-icon-app :hover {
+        color: var(--text-destac);
+    }
+}
+
+
+@media (max-width: 350px) {
+    .footer {
+        font-size: .7rem;
+    }
+
+    .social-icon-app {
+        margin-left: .1rem;
+        font-size: .7rem;
     }
 
     .social-icon-app :hover {
