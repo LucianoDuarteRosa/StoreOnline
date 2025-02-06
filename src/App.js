@@ -122,7 +122,7 @@ const App = () => {
       >
         <Box className="drawer-box"
           sx={{
-            height: '90vh',
+            height: '85vh',
             overflowY: 'auto',
           }} >
           <Box>
