@@ -57,7 +57,7 @@ body {
 }
 
 .social-icon-app {
-    margin-left: .6rem;
+    margin-left: .3rem;
     color: var(--text-sub);
     cursor: pointer;
     transition: color .3s;
