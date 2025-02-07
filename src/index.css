@@ -20,7 +20,7 @@
 }
 
 body {
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 0;
     font-family: var(--font-dm-sans) !important;
     color: var(--text-base-light);
     background-color: var(--bg-icon);
@@ -44,7 +44,7 @@ body {
     justify-content: space-between;
     padding: 1rem;
     transition: transform 0.3s ease-in-out;
-    height: 80vh;
+    height: 85vh;
     overflow-y: auto;
 }
 
