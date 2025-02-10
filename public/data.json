@@ -14,7 +14,7 @@
     {
       "IdProduct": 2,
       "ProductName": "Produto 2",
-      "PriceSale": "130.00",
+      "PriceSale": "125.00",
       "Promotion": false,
       "ImagePath": "1737836734640-934768656-02.png",
       "IdCategory": 1,
@@ -80,7 +80,7 @@
     {
       "IdProduct": 8,
       "ProductName": "Produto 8",
-      "PriceSale": "150.00",
+      "PriceSale": "140.00",
       "Promotion": false,
       "ImagePath": "1737836823545-764345659-08.png",
       "IdCategory": 2,
@@ -182,6 +182,17 @@
       "PriceSale": "150.00",
       "Promotion": true,
       "ImagePath": "1739224006291-865820204-17.png",
+      "IdCategory": 2,
+      "Category": {
+        "CategoryName": "Perfumes masculinos"
+      }
+    },
+    {
+      "IdProduct": 29,
+      "ProductName": "Produto 18",
+      "PriceSale": "80.00",
+      "Promotion": false,
+      "ImagePath": "1739229711546-81721913-17.png",
       "IdCategory": 2,
       "Category": {
         "CategoryName": "Perfumes masculinos"
