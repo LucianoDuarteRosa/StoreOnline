@@ -175,6 +175,17 @@
       "Category": {
         "CategoryName": "Perfumes masculinos"
       }
+    },
+    {
+      "IdProduct": 28,
+      "ProductName": "Produto 17",
+      "PriceSale": "150.00",
+      "Promotion": true,
+      "ImagePath": "1739224006291-865820204-17.png",
+      "IdCategory": 2,
+      "Category": {
+        "CategoryName": "Perfumes masculinos"
+      }
     }
   ],
   [
