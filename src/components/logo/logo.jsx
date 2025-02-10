@@ -1,5 +1,5 @@
 import React from "react";
-import paramsData from "../../params.json";
+import dataJson from "../../data.json";
 import "./logo.css";
 
 const Logo = () => {
@@ -11,7 +11,7 @@ const Logo = () => {
         alt="Logo"
         className="logo-image"
       />
-      <h1 className="nome-mark">{paramsData[0].Title}</h1>
+      <h1 className="nome-mark">{dataJson[1][0].Title}</h1>
     </div>
   );
 };
