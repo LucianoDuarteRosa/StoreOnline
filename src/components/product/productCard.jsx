@@ -7,7 +7,7 @@ import './productCard.css';
 const ProductCard = ({ product }) => {
     // Ajuste: Definir a URL do WhatsApp
     const whatsappMessage = `Olá! Gostaria de saber mais sobre o produto: ${product.ProductName} - Valor: R$${Number.parseFloat(product.PriceSale).toFixed(2).replace('.', ',')}.`;
-    const whatsappUrl = `https://wa.me/${dataJson[1][0].WhatsApp}?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/${dataJson.config.WhatsApp}?text=${encodeURIComponent(whatsappMessage)}`;
 
     return (
         <div className="product-card">

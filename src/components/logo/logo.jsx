@@ -11,7 +11,7 @@ const Logo = () => {
         alt="Logo"
         className="logo-image"
       />
-      <h1 className="nome-mark">{dataJson[1][0].Title}</h1>
+      <h1 className="nome-mark">{dataJson.config.Title}</h1>
     </div>
   );
 };

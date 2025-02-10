@@ -36,15 +36,15 @@ const App = () => {
     };
 
     // Embaralha os produtos antes de definir no estado
-    setProducts(shuffleArray(productsData[0]));
+    setProducts(shuffleArray(productsData.products));
 
     // Obter categorias únicas a partir do campo Category.CategoryName
     const categoriesSet = new Set(
-      productsData[0].map((product) => product.Category.CategoryName)
+      productsData.products.map((product) => product.Category.CategoryName)
     );
 
     // Adiciona "Promoção" se houver pelo menos um produto com Promotion: true
-    if (productsData[0].some((product) => product.Promotion)) {
+    if (productsData.products.some((product) => product.Promotion)) {
       categoriesSet.add("Promoção");
     }
 
@@ -175,7 +175,7 @@ const App = () => {
             </a>
           </span>
           <span>
-            <a  href={linkedIn} target="_blank" rel="noopener noreferrer">
+            <a href={linkedIn} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} className="social-icon-app" />
             </a>
           </span>

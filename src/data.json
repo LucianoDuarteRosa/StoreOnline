@@ -1,9 +1,9 @@
-[
-  [
+{
+  "products": [
     {
       "IdProduct": 1,
       "ProductName": "Produto 0",
-      "PriceSale": "200.00",
+      "PriceSale": "220.00",
       "Promotion": false,
       "ImagePath": "1737836708730-909164203-01.png",
       "IdCategory": 1,
@@ -188,12 +188,10 @@
       }
     }
   ],
-  [
-    {
-      "WhatsApp": "5532988996771",
-      "Facebook": "https://facebook.com",
-      "Instagram": "https://www.instagram.com",
-      "Title": "Store Online"
-    }
-  ]
-]
+  "config": {
+    "WhatsApp": "5532988996771",
+    "Facebook": "https://facebook.com",
+    "Instagram": "https://www.instagram.com",
+    "Title": "Store Online"
+  }
+}
