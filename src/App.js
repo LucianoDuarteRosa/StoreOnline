@@ -35,25 +35,21 @@ const App = () => {
         .map(({ value }) => value); // Retorna apenas os valores originais
     };
 
-    // Embaralha os produtos antes de definir no estado
     setProducts(shuffleArray(productsData.products));
 
-    // Obter categorias únicas a partir do campo Category.CategoryName
     const categoriesSet = new Set(
       productsData.products.map((product) => product.Category.CategoryName)
     );
 
-    // Adiciona "Promoção" se houver pelo menos um produto com Promotion: true
     if (productsData.products.some((product) => product.Promotion)) {
       categoriesSet.add("Promoção");
     }
 
-    // Transforma em array e coloca "Promoção" no início se existir
     const uniqueCategories = [
-      "Promoção",
+      "Promoção", "Lançamentos",
       ...Array.from(categoriesSet)
-        .filter(c => c !== "Promoção")
-        .sort((a, b) => a.localeCompare(b)) // Ordenação alfabética
+        .filter(c => c !== "Promoção" && c !== "Lançamentos")
+        .sort((a, b) => a.localeCompare(b))
     ];
 
     setCategories(uniqueCategories);
