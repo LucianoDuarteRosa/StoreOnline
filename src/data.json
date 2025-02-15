@@ -168,7 +168,7 @@
     {
       "IdProduct": 27,
       "ProductName": "Produto 16",
-      "PriceSale": "150.00",
+      "PriceSale": "140.00",
       "Promotion": true,
       "ImagePath": "1738806501983-298483750-14.jpg",
       "IdCategory": 2,
@@ -179,7 +179,7 @@
     {
       "IdProduct": 28,
       "ProductName": "Produto 17",
-      "PriceSale": "150.00",
+      "PriceSale": "160.00",
       "Promotion": true,
       "ImagePath": "1739224006291-865820204-17.png",
       "IdCategory": 2,

@@ -44,8 +44,8 @@ body {
     justify-content: space-between;
     padding: 1rem;
     transition: transform 0.3s ease-in-out;
-    height: 85vh;
-    overflow-y: auto;
+    /*height: 85vh;
+    overflow-y: auto; se precisa de mais espaço na barra de rolagem em dispositivos menores*/
 }
 
 .footer {
