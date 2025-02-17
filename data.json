@@ -214,10 +214,21 @@
       "ProductName": "Produto 20",
       "PriceSale": "250.00",
       "Promotion": true,
-      "ImagePath": "1739834674955-751829419-20.png",
+      "ImagePath": "1739834847702-49441025-20.png",
       "IdCategory": 2,
       "Category": {
         "CategoryName": "Perfumes masculinos"
+      }
+    },
+    {
+      "IdProduct": 35,
+      "ProductName": "Produto 20",
+      "PriceSale": "150.00",
+      "Promotion": true,
+      "ImagePath": "1739835928616-990899490-20.png",
+      "IdCategory": 1,
+      "Category": {
+        "CategoryName": "Perfumes femininos"
       }
     }
   ],
