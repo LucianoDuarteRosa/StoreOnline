@@ -210,14 +210,14 @@
       }
     },
     {
-      "IdProduct": 34,
+      "IdProduct": 35,
       "ProductName": "Produto 20",
       "PriceSale": "250.00",
       "Promotion": true,
-      "ImagePath": "1739834674955-751829419-20.png",
-      "IdCategory": 2,
+      "ImagePath": "1739835928616-990899490-20.png",
+      "IdCategory": 1,
       "Category": {
-        "CategoryName": "Perfumes masculinos"
+        "CategoryName": "Perfumes femininos"
       }
     }
   ],
