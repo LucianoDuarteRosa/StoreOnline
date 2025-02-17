@@ -188,14 +188,14 @@
       }
     },
     {
-      "IdProduct": 30,
-      "ProductName": "Produto 20",
-      "PriceSale": "200.00",
+      "IdProduct": 31,
+      "ProductName": "Produto 19",
+      "PriceSale": "150.00",
       "Promotion": true,
-      "ImagePath": "1739753273208-368158110-20.png",
-      "IdCategory": 1,
+      "ImagePath": "1739753788820-899105305-19.png",
+      "IdCategory": 2,
       "Category": {
-        "CategoryName": "Perfumes femininos"
+        "CategoryName": "Perfumes masculinos"
       }
     }
   ],
@@ -203,6 +203,6 @@
     "WhatsApp": "5532988996771",
     "Facebook": "https://facebook.com",
     "Instagram": "https://www.instagram.com",
-    "Title": "Store Online"
+    "Title": "Store Luciano"
   }
 }
