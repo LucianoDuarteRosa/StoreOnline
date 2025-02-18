@@ -219,12 +219,23 @@
       "Category": {
         "CategoryName": "Perfumes femininos"
       }
+    },
+    {
+      "IdProduct": 36,
+      "ProductName": "Produto 19",
+      "PriceSale": "200.00",
+      "Promotion": true,
+      "ImagePath": "1739837136594-883527372-19.png",
+      "IdCategory": 1,
+      "Category": {
+        "CategoryName": "Perfumes femininos"
+      }
     }
   ],
   "config": {
     "WhatsApp": "5532988996771",
     "Facebook": "https://facebook.com",
     "Instagram": "https://www.instagram.com",
-    "Title": "Store Online"
+    "Title": "Store Teste"
   }
 }
