@@ -3,7 +3,7 @@ import './sidebar.css';
 
 const Sidebar = ({ categories, selectedCategories, onCategoryChange }) => (
     <div className="sidebar">
-        <h1 className="title-category">Categorias</h1>
+        <h1 className="title-category">Categoria</h1>
         <div className="category-list">
             {categories.map((category) => (
                 <label key={category} className="category-item">

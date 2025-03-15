@@ -46,9 +46,9 @@ const App = () => {
     }
 
     const uniqueCategories = [
-      "Promoção", "Lançamentos",
+      "Promoção",
       ...Array.from(categoriesSet)
-        .filter(c => c !== "Promoção" && c !== "Lançamentos")
+        .filter(c => c !== "Promoção")
         .sort((a, b) => a.localeCompare(b))
     ];
 
