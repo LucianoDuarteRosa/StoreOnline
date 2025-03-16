@@ -248,7 +248,7 @@
       "ImagePath": "1737836837686-286875284-09.png",
       "IdCategory": 2,
       "P": false,
-      "M": false,
+      "M": true,
       "G": false,
       "GG": false,
       "Category": {
@@ -256,7 +256,7 @@
         "IdSuperCategory": 1,
         "SuperCategory": {
           "SuperCategoryName": "Perfumaria",
-          "IdSuperCategory": 1
+          "IdSuperCategory": 2
         }
       }
     },
@@ -269,14 +269,14 @@
       "IdCategory": 2,
       "P": false,
       "M": false,
-      "G": false,
-      "GG": false,
+      "G": true,
+      "GG": true,
       "Category": {
         "CategoryName": "Perfumes masculinos",
         "IdSuperCategory": 1,
         "SuperCategory": {
           "SuperCategoryName": "Perfumaria",
-          "IdSuperCategory": 1
+          "IdSuperCategory": 2
         }
       }
     },
@@ -307,16 +307,16 @@
       "Promotion": true,
       "ImagePath": "1737836794090-123921450-06.png",
       "IdCategory": 6,
-      "P": false,
+      "P": true,
       "M": false,
       "G": false,
-      "GG": false,
+      "GG": true,
       "Category": {
         "CategoryName": "Cremes hidratantes",
         "IdSuperCategory": 1,
         "SuperCategory": {
           "SuperCategoryName": "Perfumaria",
-          "IdSuperCategory": 1
+          "IdSuperCategory": 2
         }
       }
     },
@@ -348,15 +348,15 @@
       "ImagePath": "1737836763135-873857857-04.png",
       "IdCategory": 2,
       "P": false,
-      "M": false,
+      "M": true,
       "G": false,
-      "GG": false,
+      "GG": true,
       "Category": {
         "CategoryName": "Perfumes masculinos",
         "IdSuperCategory": 1,
         "SuperCategory": {
           "SuperCategoryName": "Perfumaria",
-          "IdSuperCategory": 1
+          "IdSuperCategory": 2
         }
       }
     },
