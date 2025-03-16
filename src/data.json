@@ -346,16 +346,16 @@
       "PriceSale": "50.00",
       "Promotion": false,
       "ImagePath": "1737836763135-873857857-04.png",
-      "IdCategory": 2,
+      "IdCategory": 6,
       "P": false,
       "M": true,
       "G": false,
       "GG": true,
       "Category": {
-        "CategoryName": "Perfumes masculinos",
-        "IdSuperCategory": 1,
+        "CategoryName": "Moda Masculina",
+        "IdSuperCategory": 2,
         "SuperCategory": {
-          "SuperCategoryName": "Perfumaria",
+          "SuperCategoryName": "Roupas",
           "IdSuperCategory": 2
         }
       }
@@ -366,17 +366,17 @@
       "PriceSale": "350.00",
       "Promotion": true,
       "ImagePath": "1737836750830-203061009-03.png",
-      "IdCategory": 2,
+      "IdCategory": 6,
       "P": false,
-      "M": false,
+      "M": true,
       "G": false,
       "GG": false,
       "Category": {
-        "CategoryName": "Perfumes masculinos",
-        "IdSuperCategory": 1,
+        "CategoryName": "Moda Masculina",
+        "IdSuperCategory": 2,
         "SuperCategory": {
-          "SuperCategoryName": "Perfumaria",
-          "IdSuperCategory": 1
+          "SuperCategoryName": "Roupas",
+          "IdSuperCategory": 2
         }
       }
     },
@@ -412,11 +412,11 @@
       "G": true,
       "GG": false,
       "Category": {
-        "CategoryName": "Perfumes masculinos",
-        "IdSuperCategory": 1,
+        "CategoryName": "Moda Feminina",
+        "IdSuperCategory": 2,
         "SuperCategory": {
-          "SuperCategoryName": "Perfumaria",
-          "IdSuperCategory": 1
+          "SuperCategoryName": "Roupas",
+          "IdSuperCategory": 2
         }
       }
     }
