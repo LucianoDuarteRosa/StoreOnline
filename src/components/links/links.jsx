@@ -15,12 +15,12 @@ const Links = () => {
             </div>
 
             <div className="social-icons">
-                {dataJson.config.Facebook != '' ?
+                {dataJson.config.Facebook !== '' ?
                     <a href={dataJson.config.Facebook} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} className="social-icon" />
                     </a> : ''
                 }
-                {dataJson.config.Instagram != '' ?
+                {dataJson.config.Instagram !== '' ?
                     <a href={dataJson.config.Instagram} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram} className="social-icon" />
                     </a> : ''
