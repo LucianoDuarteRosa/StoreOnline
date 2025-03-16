@@ -37,7 +37,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: var(--text-destac);
+    background: var(--bg-promotion);
     color: var(--text-base-light);
     border-radius: 12px 0 12px 0;
     padding: .3rem .7rem;
@@ -182,7 +182,7 @@
     .clothing-banner {
         font-size: .7em;
     }
-    
+
 }
 
 @media (max-width: 350px) {
