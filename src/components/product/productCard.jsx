@@ -16,6 +16,7 @@ const ProductCard = ({ product }) => {
         if (product.M) sizes.push(<span key="M">M</span>);
         if (product.G) sizes.push(<span key="G">G</span>);
         if (product.GG) sizes.push(<span key="GG">GG</span>);
+        if (product.XG) sizes.push(<span key="XG">XG</span>);
 
         return sizes;
     };
